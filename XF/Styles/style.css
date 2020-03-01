@@ -1,0 +1,414 @@
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #3c3c3c;
+    line-height: 22px;
+    font-family: Consolas;
+    /*background: url(../images/bodybg.jpg) #e1e1e1 top left repeat-x;*/
+    background: url(../images/background.png) #e1e1e1 top left repeat;
+}
+
+input [type="text"] {
+    font-size: 12px;
+    font-family: Consolas;
+}
+
+input [type="text"] {
+    font-size: 12px;
+    font-family: Consolas;
+}
+
+TEXTAREA, INPUT[type="text"] {
+    font-size: 12px;
+    font-family: Consolas;
+}
+
+html, body {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    font-size: 12px;
+    color: blue;
+    text-decoration: none;
+}
+
+    a:hover {
+        cursor: pointer;
+        color: #0061b3;
+    }
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.tableclass {
+    border: 1px solid #99ceff;
+    border-collapse: collapse;
+}
+
+    .tableclass td {
+        border: 1px solid #99ceff;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    .tableclass th {
+        border: 1px solid #99ceff;
+        border-collapse: collapse;
+        padding: 3px;
+        text-align: center;
+        background: #D0F2FF;
+    }
+
+.sort {
+    background: #FFFFCC;
+    font-weight: bold;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.banner {
+    width: 1000px;
+    height: 103px;
+    background: url(../images/banner.jpg) top left no-repeat;
+}
+
+.banner_new {
+    width: 1000px;
+    height: 103px;
+    background: url(../images/banner-new3.png) top left no-repeat;
+}
+
+.Publicbanner {
+    width: 1000px;
+    height: 72px;
+    background: url(../images/top2.jpg) top left no-repeat;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    list-style: none;
+    background: url(../images/menubg.jpg) top left repeat-x;
+}
+
+    .menu li {
+        float: left;
+        height: 30PX;
+        /*padding: 0 10px;*/
+        padding: 0 0px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+        .menu li a, .menu li a:visited {
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 0 10px;
+            /*padding: 0 0px;*/
+            text-decoration: none;
+            display: block;
+            float: left;
+        }
+
+            .menu li a:hover {
+                height: 30px;
+                padding: 0 10px;
+                font-weight: bold;
+                color: #0c65bf;
+                text-decoration: none;
+                background: url(../images/menuselected.jpg) top left repeat-x;
+            }
+
+.content {
+    margin-top: 4px;
+    /*height:570px;*/
+}
+
+.content1 {
+    margin-bottom: 4px;
+    border: 1px solid #99ceff;
+    /*height:500px;*/
+    background: url(../images/content1bg.jpg) bottom left no-repeat;
+}
+
+.content2 {
+    margin-bottom: 4px;
+    border: 1px solid #99ceff;
+    /*height:500px;*/
+    background: url(../images/content2bg.jpg) bottom left repeat-x;
+}
+
+.maincontent {
+    /*margin: 10px 3px 20px 2px;*/
+    /*margin: 0px 3px 20px 2px;*/
+    margin: 0px 3px 0px 2px;
+    min-height: 555px;
+    /*min-height:300px;*/
+}
+
+
+.title1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0e67c0;
+    margin: 0;
+    padding: 0 0 0 15px;
+    height: 27px;
+    line-height: 27px;
+    background: url(../images/titlebg1.jpg) #7bbdff top left no-repeat;
+}
+
+.title2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0e67c0;
+    margin: 0;
+    padding: 0 0 0 15px;
+    height: 27px;
+    line-height: 27px;
+    background: url(../images/titlebg2.jpg) top left repeat-x;
+}
+
+.bottom {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 1000px;
+    /*text-align: center;*/
+    text-align: right;
+    height: 75px;
+    /*position:static;
+    bottom:0;*/
+    /*padding-top: 10px;*/
+    /*background: url(../images/bottombg.jpg) bottom left repeat-x;*/
+    background: url(../images/bottombg.jpg) bottom left repeat-x;
+    z-index: -1;
+}
+
+
+#navcontainer {
+    margin-left: 10px;
+}
+
+    #navcontainer ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-family: verdana, arial, Helvetica, sans-serif;
+    }
+
+    #navcontainer li {
+        margin: 0;
+        /*width:205px;*/
+    }
+
+    #navcontainer a {
+        display: block;
+        padding: 5px 25px;
+        color: #fff;
+        text-decoration: none;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #333;
+        border-right: 1px solid #333;
+        font-weight: bold;
+        font-size: 12px;
+        background: url(../images/menubackground.jpg) #3cb4ff left center repeat-y;
+    }
+
+        #navcontainer a:hover {
+            color: #fff;
+            text-decoration: none;
+            border-top: 1px solid #333;
+            border-left: 1px solid #333;
+            border-bottom: 1px solid #fff;
+            border-right: 1px solid #fff;
+            background: url(../images/menubg_hover.jpg) #69c5ff left center repeat-y;
+        }
+
+    #navcontainer ul ul li {
+        margin: 0;
+    }
+
+    #navcontainer ul ul a {
+        display: block;
+        padding: 5px 5px 5px 10px;
+        width: 170px;
+        color: #0e67c0;
+        background: url(../images/submenubg.jpg) #e4f3fd left center repeat-y;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+        #navcontainer ul ul a:hover {
+            color: #0e67c0;
+            background: url(../images/submenubg_hover.jpg) #ffffff left center repeat-y;
+            text-decoration: none;
+        }
+
+    #navcontainer ul.myHide {
+        display: none;
+    }
+
+#navlist ul.myShow {
+    display: block;
+}
+
+.menu-left .menu-left-head {
+    padding: 3px;
+    background-color: #7bbdff;
+    border-bottom: 2px solid #3c3c3c;
+    border-left: 0px solid #3c3c3c;
+    border-right: 1px solid #3c3c3c;
+    border-top: 1px solid #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    .menu-left .menu-left-head:hover {
+        cursor: pointer;
+        background-color: #0e67c0;
+        color: #D0F2FF;
+    }
+
+. .cancelbg {
+    width: 60px;
+    height: 22px;
+    background: url(../images/cancel.jpg);
+    display: block;
+    float: LEFT;
+    margin-left: 10px;
+}
+
+.updatebg {
+    width: 60px;
+    height: 22px;
+    background: url(../images/update.jpg);
+    display: block;
+    float: LEFT;
+    margin-left: 10px;
+}
+
+.addbg {
+    width: 60px;
+    height: 22px;
+    background: url(../images/add.jpg);
+    display: block;
+    float: LEFT;
+    margin-left: 10px;
+}
+
+.editbg {
+    width: 60px;
+    height: 22px;
+    background: url(../images/btnedit.jpg);
+    display: block;
+    float: LEFT;
+    margin-left: 10px;
+}
+
+.table {
+    border: 1px solid #99ceff;
+    border-collapse: collapse;
+}
+
+    .table td {
+        padding: 4px;
+        font-weight: bold;
+    }
+
+        .table td span {
+            font-weight: normal;
+        }
+
+.jxtable {
+    border: 1px solid #99ceff;
+    border-collapse: collapse;
+}
+
+    .jxtable td {
+        border: 1px solid #99ceff;
+        border-collapse: collapse;
+        padding: 3px;
+        font-weight: bold;
+    }
+
+        .jxtable td span {
+            font-weight: normal;
+        }
+
+.mask {
+    background-color: #cccccc; /*背景颜色*/
+    display: none; /*显示或隐藏*/
+    width: 100%; /*宽*/
+    height: 100%; /*高*/
+    left: 0;
+    top: 0;
+    filter: alpha(opacity : 30); /*透明度*/
+    opacity: 0.5; /*FF*/
+    z-index: 1;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/
+    document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+
+.dialog {
+    display: none;
+    background-color: #FFCC66;
+    border: 1px solid #f00;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 999;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px !important; /*FF IE7 该值为本身宽的一半 */
+    margin-top: -150px !important; /*FF IE7 该值为本身高的一半*/
+    margin-top: 0px;
+    position: fixed !important; /* FF IE7*/
+    position: absolute; /*IE6*/
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/
+    document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); /*IE5 IE5.5*/
+}
+
+.table_search {
+    border-collapse: collapse;
+}
+
+    .table_search tr {
+        height: 30px;
+        border: 1px dashed black;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+.hide {
+    display: none;
+}
+
+.statistic_head {
+    font-size: 18px;
+    color: red;
+    text-align:center;
+    width:778px;
+    font-weight:bold;
+}

@@ -1,0 +1,231 @@
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+G:\Web项目\虹口科协会籍系统\HKKX（20150206虹口演示）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150504）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150518）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+C:\Project\visual studio 2013\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+C:\Project\visual studio 2013\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+C:\Project\visual studio 2013\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\DataModel.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\Lephone.Core.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\Lephone.Data.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\Lephone.Extra.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\Lephone.Web.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\bin\Debug\DataModel.pdb
+D:\WorkSpace\C#\HKKX\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\HKKX\BusinessSupply\obj\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\HKKX\BusinessSupply\obj\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\DataModel.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\Lephone.Core.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\Lephone.Data.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\Lephone.Extra.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\Lephone.Web.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\bin\Debug\DataModel.pdb
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\obj\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\HKKX_Tai\BusinessSupply\obj\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+D:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+D:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+E:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+E:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+E:\WorkSpace\C#\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+A:\台办发布\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 副本 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\BusinessSupply.pdb
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\DataModel.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\Lephone.Core.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\Lephone.Data.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\Lephone.Extra.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\Lephone.Web.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\bin\Debug\DataModel.pdb
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.csprojResolveAssemblyReference.cache
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.dll
+C:\Users\TR\Desktop\TaiBan - 3\TaiBan\BusinessSupply\obj\Debug\BusinessSupply.pdb

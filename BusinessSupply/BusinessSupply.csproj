@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{201A37C5-0145-4A02-87C6-B02A7DCD4B83}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessSupply</RootNamespace>
+    <AssemblyName>BusinessSupply</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lephone.Core">
+      <HintPath>..\packages\DbEntry_Dll\Lephone.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Data">
+      <HintPath>..\packages\DbEntry_Dll\Lephone.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Extra">
+      <HintPath>..\packages\DbEntry_Dll\Lephone.Extra.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Web">
+      <HintPath>..\packages\DbEntry_Dll\Lephone.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessOper\AgedBusiness.cs" />
+    <Compile Include="BusinessOper\BasicInfoBusiness.cs" />
+    <Compile Include="BusinessOper\BusinessBusiness.cs" />
+    <Compile Include="BusinessOper\ChildrenBusiness.cs" />
+    <Compile Include="BusinessOper\CommunicationBusiness.cs" />
+    <Compile Include="BusinessOper\CoordinateBusiness.cs" />
+    <Compile Include="BusinessOper\EmailAccountBusiness.cs" />
+    <Compile Include="BusinessOper\EmailBusiness.cs" />
+    <Compile Include="BusinessOper\Email_PersonBusiness.cs" />
+    <Compile Include="BusinessOper\EnterpriseBusiness.cs" />
+    <Compile Include="BusinessOper\ExperienceBusiness.cs" />
+    <Compile Include="BusinessOper\FamilyOfPeopleBusiness.cs" />
+    <Compile Include="BusinessOper\FamilyOfStudentBusiness.cs" />
+    <Compile Include="BusinessOper\GroupCommunicationWorkBusiness.cs" />
+    <Compile Include="BusinessOper\InspectBusiness.cs" />
+    <Compile Include="BusinessOper\LogInfoBusiness.cs" />
+    <Compile Include="BusinessOper\MariageBusiness.cs" />
+    <Compile Include="BusinessOper\MessageBusiness.cs" />
+    <Compile Include="BusinessOper\Message_PersonBusiness.cs" />
+    <Compile Include="BusinessOper\NoticeBusiness.cs" />
+    <Compile Include="BusinessOper\PeopleBusiness.cs" />
+    <Compile Include="BusinessOper\RelativeOfPeopleBusiness.cs" />
+    <Compile Include="BusinessOper\RelativeToMariageBusiness.cs" />
+    <Compile Include="BusinessOper\SchoolBusiness.cs" />
+    <Compile Include="BusinessOper\SituationBusiness.cs" />
+    <Compile Include="BusinessOper\SituationToSpecialWorkBusiness.cs" />
+    <Compile Include="BusinessOper\SpecialWorkBusiness.cs" />
+    <Compile Include="BusinessOper\StudentBusiness.cs" />
+    <Compile Include="BusinessOper\StudyBusiness.cs" />
+    <Compile Include="BusinessOper\UserBusiness.cs" />
+    <Compile Include="BusinessOper\VisitBusiness.cs" />
+    <Compile Include="BusinessOper\WorkBusiness.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{8ba239b2-66a5-4d12-a119-34e3a1b8c189}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,270 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LogIn.master.cs" Inherits="XF.HKHJXT.LogIn" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>上海市杨浦区人民政府台湾事务办公室工作信息管理系统</title>
+    <link href="./Styles/style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="layer/layer.js" type="text/javascript"></script>
+    <link href="Styles/tanc.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Buttons/Buttons/css/buttons.css">
+    <link rel="stylesheet" href="Buttons/Buttons/css/font-awesome.min.css">
+    <%--    <script type="text/javascript">
+        $(document).ready(function () {
+            var lr_systembtn = $("#lr_systembtn");
+            var lr_menu = $("#lr_menu");
+            lr_systembtn.mouseenter(function () {
+                t_delay = setTimeout(function () {
+                    lr_menu.fadeIn("slow");
+                }, 200);
+            });
+            lr_systembtn.mouseleave(function () {
+                clearTimeout(t_delay);
+                lr_menu.fadeOut("slow");
+            });
+        });
+    </script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 58px;
+        }
+    </style>
+    <script type="text/javascript">
+        function UserLogin() {
+            $.layer({
+                type: 2,
+                shade: [0],
+                fix: false,
+                title: ['登录', true],
+                //iframe: { src: 'UserLogin.aspx' },
+                iframe: { src: 'LogIn.aspx' },
+                area: ['385px', '210px'],
+                offset: ['150px', ''],
+                end: function () {
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div class="banner_new" style="text-align: right; color: #FFFFFF;">
+                <%--<div runat="server" id="navlist">
+                   <table runat="server" id="menu" align="right">
+                    <tr>
+                    <td>
+                        <a href="../../UpdatePwd.aspx" style="color:white">修改密码</a>
+                    </td>
+                    </tr>
+                       <tr>
+                           <td>
+                               <a href="../../Login.aspx" style="color:white">退出登录</a>
+                           </td>
+                       </tr>
+
+                </table>
+                </div>--%>
+
+                <%-- <table style="float:left" runat="server" id="login">
+                    <tr>
+                        <td>帐号：</td>
+                        <td><asp:TextBox ID="txtAccount" runat="server" MaxLength="50"></asp:TextBox></td>
+                        <td>密码</td>
+                        <td> <asp:TextBox ID="txtPassword" runat="server" MaxLength="50" TextMode="Password"></asp:TextBox></td>
+                        <td>
+                            <asp:Button ID="btnLogin" runat="server" Text="登录" OnClick="btnLogin_Click" /></td>
+                        <td>
+                            <asp:Label ID="LabelError" runat="server" ForeColor="Red"></asp:Label></td>
+                    </tr>
+                </table>--%>
+                <%--<div id="lr_systembox">
+                    <div id="lr_systembtn" class="lr_systembtn">
+                        <a href="#" class="lr_abtn"><span>
+                            <asp:Label runat="server" ID="AuditUser"></asp:Label></span></a>
+                        <div id="lr_menu" class="lr_menu">
+                            <dl>
+                                <dt><a href="UpdateUserInfo.aspx">用户信息</a></dt>
+                            </dl>
+                            <dl>
+                                <dt><a href="UpdatePwd.aspx">修改密码</a></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                 <asp:LinkButton ID="LinkButton1" runat="server" OnClick="lbLogOut_Click" ForeColor="White"></asp:LinkButton>--%>
+            </div>
+
+            <ul class="menu" id="u2" runat="server">
+                <%-- <li id="Li4"><a href="UpdatePwd.aspx">修改密码</a></li>
+                <li><a href="UpdateUserInfo.aspx">用户信息</a>
+                   </li>--%>
+                <li id="Li1" runat="server">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="LogInPage.aspx">通知公告</asp:HyperLink>
+                </li>
+                <%--            <li id="Li8" runat="server">
+                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="AssociationManage.aspx">学会管理</asp:HyperLink>
+            </li>
+            <li id="Li9" runat="server">
+                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="MemberManage.aspx">会员管理</asp:HyperLink>
+            </li>
+            <li id="Li2"  runat="server">
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Statistical.aspx">统计分析</asp:HyperLink>
+            </li>
+            <li id="Li3"  runat="server">
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="LogList.aspx">日志分析</asp:HyperLink>
+            </li>
+            <li id="Li4"  runat="server">
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="CheckAffair.aspx">审核事务</asp:HyperLink>
+            </li>--%>
+                <%--<li id="Li5" runat="server">
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="#">校服调研</asp:HyperLink>
+            </li>
+            <li id="Li6" runat="server">
+                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="#">校服展示</asp:HyperLink>
+            </li>--%>
+            </ul>
+            <div class="content">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <%--<td width="220" align="left" valign="top" style="padding: 0 2px 0 0">
+                        <div class="content1">
+                            <div class="maincontent"  style="padding-top:27px;">
+                                <div id="navcontainer">
+                                    <ul id="navlist">
+                                        <li id="11">
+                                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="News.aspx">通知公告</asp:HyperLink>
+                                        </li>
+                                        <li id="12">
+                                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="UniformInfoList.aspx">校服数据申报</asp:HyperLink>
+                                        </li>
+                                        <li id="Li2">
+                                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="ProblemUniformList.aspx">问题校服信息处理</asp:HyperLink>
+                                        </li>  
+                                        <li id="Li1">
+                                            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="QXReport1.aspx">报表管理</asp:HyperLink>
+                                        </li>  
+                                        <li id="Li4">
+                                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="#">校服使用情况调研</asp:HyperLink>
+                                        </li> 
+                                        <li id="Li5">
+                                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="#">校服展示评比</asp:HyperLink>
+                                        </li>                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </td>--%>
+                        <td width="220" align="left" valign="top" style="padding: 0 2px 0 0">
+                            <div class="content1">
+                                <div class="maincontent" style="padding-top: 27px;">
+                                    <div id="navcontainer">
+                                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                                        </asp:ScriptManager>
+                                        <table border="0" cellspacing="5" cellpadding="0" runat="server" id="userlogin">
+                                            <tr>
+                                                <td colspan="2">欢迎进入上海市杨浦区人民政府台湾事务办公室工作信息管理系统：
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="middle">今天：</td>
+                                                <td>
+                                                    <asp:Label ID="lblWeek" runat="server"></asp:Label></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="middle">时间：</td>
+                                                <td>
+                                                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                                        <ContentTemplate>
+                                                            <asp:Label ID="lblDateTime" runat="server"></asp:Label>
+                                                            <asp:Timer runat="server" OnTick="Unnamed1_Tick" ID="timer1">
+                                                            </asp:Timer>
+                                                        </ContentTemplate>
+                                                    </asp:UpdatePanel>
+                                                </td>
+                                            </tr>
+                                            <%--<tr>
+                                                <td align="left" valign="middle">天气：</td>
+                                                <td>
+                                                    <iframe width="120" scrolling="no" height="50" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=17&icon=1&num=3"></iframe>
+                                                </td>
+                                            </tr>--%>
+                                            <tr>
+                                                <td colspan="2" align="center" class="auto-style2">
+                                                    <button type="button" class="button button-rounded button-flat-action button-small" onclick="UserLogin()" style=" width: 86px; height: 39px; border-style: none;">登录</button>
+                                                    <%--<a onclick="UserLogin()" style="background: url(images/userlogin.png) no-repeat center; width: 56px; height: 39px; border-style: none;"></a>--%>
+                                                    <%--<asp:Button ID="Button1" CssClass="button button-rounded button-flat-primary button-small" runat="server" Text="登录" onclientclick="UserLogin()" />--%>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <%--<ul id="navlist" runat="server">
+                                            <li>
+                                                <a><asp:Label runat="server" ID="AuditUser"></asp:Label></a>
+                                            </li>
+                                            <li id="11">
+                                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="../../UpdateUserInfo.aspx">用户信息</asp:HyperLink>
+                                            </li>
+                                            <li id="12">
+                                                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="../../UpdatePwd.aspx">修改密码</asp:HyperLink>
+                                            </li>
+                                            <li id="Li7">
+                                                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="lbLogOut_Click" ForeColor="White">退出登录</asp:LinkButton>
+                                            </li>
+                                        </ul>--%>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td align="left" valign="top" style="padding: 0 2px 0 2px">
+                            <asp:ContentPlaceHolder ID="CPHMainContent" runat="server">
+                                <div class="content2">
+                                    <h2 class="title2"></h2>
+                                    <div class="maincontent">
+                                    </div>
+                                </div>
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottom">
+                <br />
+                copyright&copy; 上海市杨浦区人民政府台湾事务办公室<br />
+                <%--开发单位：上海上大海润信息系统有限公司--%>
+            <br />
+            </div>
+        </div>
+    </form>
+    <%--  <script language="javascript" type="text/javascript">
+        function change() {
+            //通过父元素li，找到兄弟元素ul
+            var oSecondDiv = this.parentNode.getElementsByTagName("ul")[0];
+            //CSS交替更换来实现显、隐
+            if (oSecondDiv.className == "myHide")
+                oSecondDiv.className = "myShow";
+            else
+                oSecondDiv.className = "myHide";
+        }
+        window.onload = function () {
+            var oUl = document.getElementById("navlist");
+            var aLi = oUl.childNodes; //子元素
+            var oA;
+            for (var i = 0; i < aLi.length; i++) {
+                //假如子元素为li，且这个li有子菜单ul
+                if (aLi[i].tagName == "LI" && aLi[i].getElementsByTagName("ul").length) {
+                    oA = aLi[i].firstChild; //找到超链接
+                    oA.onclick = change; //动态添加点击函数
+                }
+            }
+        }
+    </script>--%>
+</body>
+</html>
+

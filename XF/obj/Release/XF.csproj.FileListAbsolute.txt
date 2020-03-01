@@ -1,0 +1,108 @@
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\XF.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\XF.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\BusinessSupply.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\BusinessSupply.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\bin\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\obj\Release\XF.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\XF\obj\Release\XF.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\GSMMODEM.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.dll
+F:\工程文件\虹口会籍系统\HKKX（20150520）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\XF.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\GSMMODEM.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\BusinessSupply.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\bin\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\XF\obj\Release\XF.pdb
+C:\Project\visual studio 2013\HKKX\XF\bin\XF.dll.config
+C:\Project\visual studio 2013\HKKX\XF\bin\XF.dll
+C:\Project\visual studio 2013\HKKX\XF\bin\XF.pdb
+C:\Project\visual studio 2013\HKKX\XF\bin\BusinessSupply.dll
+C:\Project\visual studio 2013\HKKX\XF\bin\DataModel.dll
+C:\Project\visual studio 2013\HKKX\XF\bin\Newtonsoft.Json.dll
+C:\Project\visual studio 2013\HKKX\XF\bin\BusinessSupply.pdb
+C:\Project\visual studio 2013\HKKX\XF\bin\DataModel.pdb
+C:\Project\visual studio 2013\HKKX\XF\bin\Newtonsoft.Json.pdb
+C:\Project\visual studio 2013\HKKX\XF\bin\Newtonsoft.Json.xml
+C:\Project\visual studio 2013\HKKX\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+C:\Project\visual studio 2013\HKKX\XF\obj\Release\XF.dll
+C:\Project\visual studio 2013\HKKX\XF\obj\Release\XF.pdb
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\XF.dll.config
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\XF.dll
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\XF.pdb
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\BusinessSupply.dll
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\DataModel.dll
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\Newtonsoft.Json.dll
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\BusinessSupply.pdb
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\DataModel.pdb
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\Newtonsoft.Json.pdb
+D:\WorkSpace\C#\HKKX_Tai\XF\bin\Newtonsoft.Json.xml
+D:\WorkSpace\C#\HKKX_Tai\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\HKKX_Tai\XF\obj\Release\XF.dll
+D:\WorkSpace\C#\HKKX_Tai\XF\obj\Release\XF.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\XF.dll.config
+D:\WorkSpace\C#\TaiBan\XF\bin\XF.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\XF.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\BusinessSupply.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\DataModel.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\BusinessSupply.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\DataModel.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.xml
+D:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.dll
+D:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.pdb
+D:\WorkSpace\C#\TaiBan\XF\bin\ICSharpCode.SharpZipLib.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OOXML.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXml4Net.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXmlFormats.dll
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.xml
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OOXML.xml
+D:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXml4Net.xml
+D:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.csproj.ResolveComReference.cache
+E:\WorkSpace\C#\TaiBan\XF\bin\XF.dll.config
+E:\WorkSpace\C#\TaiBan\XF\bin\XF.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\XF.pdb
+E:\WorkSpace\C#\TaiBan\XF\bin\BusinessSupply.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\DataModel.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OOXML.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXml4Net.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXmlFormats.dll
+E:\WorkSpace\C#\TaiBan\XF\bin\BusinessSupply.pdb
+E:\WorkSpace\C#\TaiBan\XF\bin\DataModel.pdb
+E:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.pdb
+E:\WorkSpace\C#\TaiBan\XF\bin\Newtonsoft.Json.xml
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.xml
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OOXML.xml
+E:\WorkSpace\C#\TaiBan\XF\bin\NPOI.OpenXml4Net.xml
+E:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.csprojResolveAssemblyReference.cache
+E:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.csproj.ResolveComReference.cache
+E:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.dll
+E:\WorkSpace\C#\TaiBan\XF\obj\Release\XF.pdb

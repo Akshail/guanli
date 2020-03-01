@@ -1,0 +1,41 @@
+--------2016/12/4 14:57:29---------
+System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 XF.HKHJXT.Administrator.CheckAffairList_zdtsqk_Add.Button3_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\台办项目\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.cs:行号 105
+--------2016/12/4 15:01:35---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_zdtsqk_Add.Button3_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\台办项目\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.cs:行号 114
+--------2016/12/4 15:58:17---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_zdtsqk_Add.Button3_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\台办项目\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.cs:行号 122
+--------2016/12/4 16:29:23---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_lahy_look.Button3_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\台办项目\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_lahy_look.aspx.cs:行号 171
+--------2016/12/6 10:37:46---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_zdtsqk_Add.Button3_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\台办项目\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.cs:行号 160

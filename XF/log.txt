@@ -1,0 +1,54 @@
+﻿--------2019/2/15 17:25:58---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_tzjlgz_Add.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_tzjlgz_Add.aspx.cs:行号 103
+--------2019/2/15 17:29:46---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_tzjlgz_Add.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 2 - 副本\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_tzjlgz_Add.aspx.cs:行号 103
+--------2019/3/25 18:09:36---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_tzqy_Add.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 3\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx.cs:行号 133
+--------2019/3/25 18:09:44---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_tzqy_Add.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 3\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx.cs:行号 133
+--------2019/3/25 18:09:50---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_tzqy_Add.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 3\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx.cs:行号 133
+--------2019/3/25 18:35:08---------
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 XF.HKHJXT.Administrator.CheckAffairList_cztb_look.Button3_Click(Object sender, EventArgs e) 位置 C:\Users\TR\Desktop\TaiBan - 3\TaiBan\XF\HKHJXT\Administrator\CheckAffairList_cztb_look.aspx.cs:行号 188

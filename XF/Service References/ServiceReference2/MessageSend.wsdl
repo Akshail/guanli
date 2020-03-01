@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="JWSend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="JsNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="useraccount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JWSendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="JWSendResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="JWSendSoapIn">
+    <wsdl:part name="parameters" element="tns:JWSend" />
+  </wsdl:message>
+  <wsdl:message name="JWSendSoapOut">
+    <wsdl:part name="parameters" element="tns:JWSendResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MessageSendSoap">
+    <wsdl:operation name="JWSend">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">群发-内容一致的短信</wsdl:documentation>
+      <wsdl:input message="tns:JWSendSoapIn" />
+      <wsdl:output message="tns:JWSendSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MessageSendSoap" type="tns:MessageSendSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="JWSend">
+      <soap:operation soapAction="http://tempuri.org/JWSend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MessageSendSoap12" type="tns:MessageSendSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="JWSend">
+      <soap12:operation soapAction="http://tempuri.org/JWSend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MessageSend">
+    <wsdl:port name="MessageSendSoap" binding="tns:MessageSendSoap">
+      <soap:address location="http://202.121.199.198/KeMessageSend/MessageSend.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MessageSendSoap12" binding="tns:MessageSendSoap12">
+      <soap12:address location="http://202.121.199.198/KeMessageSend/MessageSend.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

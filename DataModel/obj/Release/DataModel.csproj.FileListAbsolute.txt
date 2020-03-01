@@ -1,0 +1,78 @@
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\bin\Release\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\obj\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX\HKKX\DataModel\obj\Release\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\bin\Release\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\obj\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150309）\HKKX\DataModel\obj\Release\DataModel.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\DataModel.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\DataModel.pdb
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\Lephone.Core.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\Lephone.Data.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\bin\Release\Lephone.Web.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\obj\Release\DataModel.dll
+F:\Web项目\虹口科协会籍系统\HKKX（20150504）\HKKX\DataModel\obj\Release\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\DataModel.pdb
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\Lephone.Core.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\Lephone.Data.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\bin\Release\Lephone.Web.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\obj\Release\DataModel.dll
+F:\Web项目\科协会员会籍系统（通用版）\HKKX（20150515）\HKKX\DataModel\obj\Release\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\DataModel.pdb
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\Lephone.Core.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\Lephone.Data.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\bin\Release\Lephone.Web.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\obj\Release\DataModel.dll
+F:\工程文件\虹口会籍系统\HKKX（20150714）\HKKX（20150519）\HKKX（20150519）\HKKX\DataModel\obj\Release\DataModel.pdb
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\DataModel.dll
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\DataModel.pdb
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\Lephone.Core.dll
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\Lephone.Data.dll
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\Lephone.Extra.dll
+C:\Project\visual studio 2013\HKKX\DataModel\bin\Release\Lephone.Web.dll
+C:\Project\visual studio 2013\HKKX\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+C:\Project\visual studio 2013\HKKX\DataModel\obj\Release\DataModel.dll
+C:\Project\visual studio 2013\HKKX\DataModel\obj\Release\DataModel.pdb
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\DataModel.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\DataModel.pdb
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\Lephone.Core.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\Lephone.Data.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\Lephone.Extra.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\bin\Release\Lephone.Web.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\HKKX_Tai\DataModel\obj\Release\DataModel.dll
+D:\WorkSpace\C#\HKKX_Tai\DataModel\obj\Release\DataModel.pdb
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\DataModel.dll
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\DataModel.pdb
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Core.dll
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Data.dll
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Extra.dll
+D:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Web.dll
+D:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+D:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.dll
+D:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.pdb
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\DataModel.dll
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\DataModel.pdb
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Core.dll
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Data.dll
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Extra.dll
+E:\WorkSpace\C#\TaiBan\DataModel\bin\Release\Lephone.Web.dll
+E:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.csprojResolveAssemblyReference.cache
+E:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.dll
+E:\WorkSpace\C#\TaiBan\DataModel\obj\Release\DataModel.pdb

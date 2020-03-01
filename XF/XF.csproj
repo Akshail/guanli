@@ -1,0 +1,1247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{565BE08F-D543-4478-867C-39C6B7676E7E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XF</RootNamespace>
+    <AssemblyName>XF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\..\..\发邮件+wordexcel导出Demo\WebApplication1\WebApplication1\bin\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMMODEM">
+      <HintPath>C:\Users\wang\Documents\我的POPO\数据挖掘采集器源程序\CardBehaviorSystem\bin\Debug\GSMMODEM.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\NPOI_dotnet4\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Core, Version=4.1.4379.37251, Culture=neutral, PublicKeyToken=3eacc2a29b11f14a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\工程文件\虹口会籍系统\XF\XF\packages\DbEntry_Dll\Lephone.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Data, Version=4.1.4379.37251, Culture=neutral, PublicKeyToken=d77bbd87a80780b6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\工程文件\虹口会籍系统\XF\XF\packages\DbEntry_Dll\Lephone.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Extra, Version=4.1.4379.37314, Culture=neutral, PublicKeyToken=735f278977bae975, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\工程文件\虹口会籍系统\XF\XF\packages\DbEntry_Dll\Lephone.Extra.dll</HintPath>
+    </Reference>
+    <Reference Include="Lephone.Web, Version=4.1.4379.37318, Culture=neutral, PublicKeyToken=42ccac35c557a2bd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\工程文件\虹口会籍系统\XF\XF\packages\DbEntry_Dll\Lephone.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\office\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\office\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\office\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b274cb7d50d215c2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=b274cb7d50d215c2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>utf8-net\net\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.6.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NPOI_dotnet4\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.0.6.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NPOI_dotnet4\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.0.6.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NPOI_dotnet4\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.0.6.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NPOI_dotnet4\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\office\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\dist\js\bootstrap.js" />
+    <Content Include="bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="bootstrap\dist\js\npm.js" />
+    <Content Include="Buttons\Buttons\css\buttons.css" />
+    <Content Include="Buttons\Buttons\css\font-awesome-ie7.min.css" />
+    <Content Include="Buttons\Buttons\css\font-awesome.min.css" />
+    <Content Include="Buttons\Buttons\font\fontawesome-webfont.svg" />
+    <Content Include="Buttons\Buttons\js\buttons.js" />
+    <Content Include="GetPic.aspx" />
+    <Content Include="highcharts\exporting.js" />
+    <Content Include="highcharts\highcharts.js" />
+    <Content Include="highcharts\jquery-1.8.3.min.js" />
+    <Content Include="HKHJXT\Administrator\BasicInfoManage.aspx" />
+    <Content Include="HKHJXT\Administrator\BasicInfoManage_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_cztb.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_cztb_jtcy_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_cztb_look.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzjlgz.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzjlgz_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzqy_jcjl_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzqy_wtxt_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zdtsqk.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Check.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_jtcy_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_xxjl_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_tzqy.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zxgz.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zxgz_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\CheckAffairList_zxgz_jlqk_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\log.txt" />
+    <Content Include="HKHJXT\Administrator\LogManage.aspx" />
+    <Content Include="HKHJXT\Administrator\NoticeContent.aspx" />
+    <Content Include="HKHJXT\Administrator\NoticeManage.aspx" />
+    <Content Include="HKHJXT\Administrator\NoticeManage_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\NoticeManage_Update.aspx" />
+    <Content Include="HKHJXT\Administrator\OutputEnvelope.aspx" />
+    <Content Include="HKHJXT\Administrator\CollegeManage.aspx" />
+    <Content Include="HKHJXT\Administrator\CollegeManage_Add.aspx" />
+    <Content Include="HKHJXT\Administrator\SendEmail.aspx" />
+    <Content Include="HKHJXT\Administrator\SendEmail_NewEmail.aspx" />
+    <Content Include="HKHJXT\Administrator\SendEmail_SelectPerson.aspx" />
+    <Content Include="HKHJXT\Administrator\SendMessage.aspx" />
+    <Content Include="HKHJXT\Administrator\SendMessage_NewMessage.aspx" />
+    <Content Include="HKHJXT\Administrator\SendMessage_SelectPerson.aspx" />
+    <Content Include="HKHJXT\Administrator\SentEmailContent.aspx" />
+    <Content Include="HKHJXT\Administrator\SentMessageContent.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_cztb_age.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_cztb_lhmd.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_cztb_sex.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_zhts_school.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_zhts_sex.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_zxgz_age.aspx" />
+    <Content Include="HKHJXT\Administrator\Statistic_zxgz_sex.aspx" />
+    <Content Include="HKHJXT\Administrator\UpdatePassword.aspx" />
+    <Content Include="HKHJXT\Administrator\VipMemberManage.aspx" />
+    <Content Include="HKHJXT\Administrator\VipMemberManage_Add.aspx" />
+    <Content Include="images\1_3.png" />
+    <Content Include="images\1_5.png" />
+    <Content Include="images\add.jpg" />
+    <Content Include="images\AddPhoto.jpg" />
+    <Content Include="images\background.png" />
+    <Content Include="images\banner-new.jpg" />
+    <Content Include="images\banner-new1.jpg" />
+    <Content Include="images\banner-new2.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bodybg.jpg" />
+    <Content Include="images\bottombg.jpg" />
+    <Content Include="images\btnedit.jpg" />
+    <Content Include="images\bxgl_11.jpg" />
+    <Content Include="images\bxgl_13.jpg" />
+    <Content Include="images\bxgl_16.jpg" />
+    <Content Include="images\bxgl_21.jpg" />
+    <Content Include="images\bxgl_22.jpg" />
+    <Content Include="images\bxgl_23.jpg" />
+    <Content Include="images\bxgl_3.jpg" />
+    <Content Include="images\bxgl_5.jpg" />
+    <Content Include="images\bxgl_9.jpg" />
+    <Content Include="images\cancel.jpg" />
+    <Content Include="images\content1bg.jpg" />
+    <Content Include="images\content2bg.jpg" />
+    <Content Include="images\defaultpersonimage.png" />
+    <Content Include="images\help.gif" />
+    <Content Include="images\hz_03.jpg" />
+    <Content Include="images\hz_06.jpg" />
+    <Content Include="images\links.jpg" />
+    <Content Include="images\loginbg.jpg" />
+    <Content Include="images\login_4.png" />
+    <Content Include="images\login_8.png" />
+    <Content Include="images\login_7.png" />
+    <Content Include="images\login_btn.gif" />
+    <Content Include="images\map.gif" />
+    <Content Include="images\menubackground.jpg" />
+    <Content Include="images\menubg.jpg" />
+    <Content Include="images\menubg_hover.jpg" />
+    <Content Include="images\menuselected.jpg" />
+    <Content Include="images\My97DatePicker\calendar.js" />
+    <Content Include="images\My97DatePicker\WdatePicker.js" />
+    <Content Include="images\No.jpg" />
+    <Content Include="images\pic1.png" />
+    <Content Include="images\pic2.jpg" />
+    <Content Include="images\pic3.png" />
+    <Content Include="images\pict1_3.jpg" />
+    <Content Include="images\pict1_5.jpg" />
+    <Content Include="images\pict1_7.jpg" />
+    <Content Include="images\reg_btn.gif" />
+    <Content Include="images\submenubg.jpg" />
+    <Content Include="images\submenubg_hover.jpg" />
+    <Content Include="images\titlebg1.jpg" />
+    <Content Include="images\titlebg2.jpg" />
+    <Content Include="images\Top2.jpg" />
+    <Content Include="images\update.jpg" />
+    <Content Include="images\userlogin.png" />
+    <Content Include="images\userloginbg.jpg" />
+    <Content Include="images\workflow.jpg" />
+    <Content Include="images\wybm_btn.gif" />
+    <Content Include="images\wycf_btn.gif" />
+    <Content Include="images\wyds_btn.gif" />
+    <Content Include="images\wydy_btn.gif" />
+    <Content Include="images\Yes.jpg" />
+    <Content Include="images\头像1.png" />
+    <Content Include="images\默认头像.jpg" />
+    <Content Include="index.htm" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="js\upload.js" />
+    <Content Include="js\uploadflv.js" />
+    <Content Include="js\uploadify\browse-btn.png" />
+    <Content Include="js\uploadify\jquery.uploadify.js" />
+    <Content Include="js\uploadify\jquery.uploadify.min.js" />
+    <Content Include="js\uploadify\uploadify-cancel.png" />
+    <Content Include="js\uploadify\uploadify.css" />
+    <Content Include="js\uploadify\uploadify.swf" />
+    <Content Include="layer\extend\layer.ext.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\layer.min.js" />
+    <Content Include="layer\skin\default\textbg.png" />
+    <Content Include="layer\skin\default\xubox_ico0.png" />
+    <Content Include="layer\skin\default\xubox_loading0.gif" />
+    <Content Include="layer\skin\default\xubox_loading1.gif" />
+    <Content Include="layer\skin\default\xubox_loading2.gif" />
+    <Content Include="layer\skin\default\xubox_loading3.gif" />
+    <Content Include="layer\skin\default\xubox_title0.png" />
+    <Content Include="layer\skin\layer.css" />
+    <Content Include="layer\skin\layer.ext.css" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="LogInPage.aspx" />
+    <Content Include="My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\WdatePicker.js" />
+    <Content Include="My97DatePicker\开发包\lang\en.js" />
+    <Content Include="My97DatePicker\开发包\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\开发包\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\开发包\readme.txt" />
+    <Content Include="My97DatePicker\开发包\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\开发包\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\开发包\skin\default\img.gif" />
+    <Content Include="My97DatePicker\开发包\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\开发包\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\开发包\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\开发包\skin\whyGreen\img.gif" />
+    <Content Include="LogInNoticeContent.aspx" />
+    <Content Include="Properties\PublishProfiles\配置文件1.pubxml.user" />
+    <Content Include="ResetPwd.aspx" />
+    <Content Include="Service References\ServiceReference1\SendMsg.disco" />
+    <Content Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <Content Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <Content Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Service References\ServiceReference2\configuration91.svcinfo" />
+    <Content Include="Service References\ServiceReference2\configuration.svcinfo" />
+    <Content Include="Service References\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Service References\ServiceReference3\MsgModemWebServer.disco" />
+    <Content Include="Service References\ServiceReference3\configuration91.svcinfo" />
+    <Content Include="Service References\ServiceReference3\configuration.svcinfo" />
+    <Content Include="Service References\ServiceReference3\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Styles\AspPager.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\tanc.css" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\emotion.css" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\emotion.js" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\0.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\bface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\cface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\fface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\tface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\wface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\emotion\images\yface.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\formula\formula.css" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\formula\formula.html" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\formula\formula.js" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\formula\images\formula.png" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\image\image.css" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\image\image.js" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\image\images\close.png" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\image\images\upload1.png" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\image\images\upload2.png" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\link\link.js" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\map\map.html" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\map\map.js" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\images\center_focus.jpg" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\images\left_focus.jpg" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\images\none_focus.jpg" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\images\right_focus.jpg" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\video.css" />
+    <Content Include="umeditor1_2_2-utf8-net\dialogs\video\video.js" />
+    <Content Include="umeditor1_2_2-utf8-net\index.html" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\en.js" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\addimage.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\alldeletebtnhoverskin.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\alldeletebtnupskin.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\background.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\button.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\copy.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\deletedisable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\deleteenable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\imglabel.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\listbackground.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\localimage.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\music.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\rotateleftdisable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\rotateleftenable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\rotaterightdisable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\rotaterightenable.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\en\images\upload.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\images\copy.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\images\imglabel.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\images\localimage.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\images\music.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\images\upload.png" />
+    <Content Include="umeditor1_2_2-utf8-net\lang\zh-cn\zh-cn.js" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\css\umeditor.css" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\css\umeditor.min.css" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\caret.png" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\close.png" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\icons.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\icons.png" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\ok.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\pop-bg.png" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\spacer.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\themes\default\images\videologo.gif" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\jquery.min.js" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\STIXFontLicense2010.txt" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\mathquill.css" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\mathquill.js" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\mathquill.min.js" />
+    <Content Include="umeditor1_2_2-utf8-net\umeditor.config.js" />
+    <Content Include="umeditor1_2_2-utf8-net\umeditor.js" />
+    <Content Include="umeditor1_2_2-utf8-net\umeditor.min.js" />
+    <Content Include="utf8-net\dialogs\anchor\anchor.html" />
+    <Content Include="utf8-net\dialogs\attachment\attachment.css" />
+    <Content Include="utf8-net\dialogs\attachment\attachment.html" />
+    <Content Include="utf8-net\dialogs\attachment\attachment.js" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_chm.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_default.png" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_doc.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_exe.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_jpg.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_mp3.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_mv.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_pdf.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_ppt.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_psd.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_rar.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_txt.gif" />
+    <Content Include="utf8-net\dialogs\attachment\fileTypeImages\icon_xls.gif" />
+    <Content Include="utf8-net\dialogs\attachment\images\alignicon.gif" />
+    <Content Include="utf8-net\dialogs\attachment\images\alignicon.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\bg.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\file-icons.gif" />
+    <Content Include="utf8-net\dialogs\attachment\images\file-icons.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\icons.gif" />
+    <Content Include="utf8-net\dialogs\attachment\images\icons.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\image.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\progress.png" />
+    <Content Include="utf8-net\dialogs\attachment\images\success.gif" />
+    <Content Include="utf8-net\dialogs\attachment\images\success.png" />
+    <Content Include="utf8-net\dialogs\background\background.css" />
+    <Content Include="utf8-net\dialogs\background\background.html" />
+    <Content Include="utf8-net\dialogs\background\background.js" />
+    <Content Include="utf8-net\dialogs\background\images\bg.png" />
+    <Content Include="utf8-net\dialogs\background\images\success.png" />
+    <Content Include="utf8-net\dialogs\charts\chart.config.js" />
+    <Content Include="utf8-net\dialogs\charts\charts.css" />
+    <Content Include="utf8-net\dialogs\charts\charts.html" />
+    <Content Include="utf8-net\dialogs\charts\charts.js" />
+    <Content Include="utf8-net\dialogs\charts\images\charts0.png" />
+    <Content Include="utf8-net\dialogs\charts\images\charts1.png" />
+    <Content Include="utf8-net\dialogs\charts\images\charts2.png" />
+    <Content Include="utf8-net\dialogs\charts\images\charts3.png" />
+    <Content Include="utf8-net\dialogs\charts\images\charts4.png" />
+    <Content Include="utf8-net\dialogs\charts\images\charts5.png" />
+    <Content Include="utf8-net\dialogs\emotion\emotion.css" />
+    <Content Include="utf8-net\dialogs\emotion\emotion.html" />
+    <Content Include="utf8-net\dialogs\emotion\emotion.js" />
+    <Content Include="utf8-net\dialogs\emotion\images\0.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\bface.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\cface.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\fface.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="utf8-net\dialogs\emotion\images\tface.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\wface.gif" />
+    <Content Include="utf8-net\dialogs\emotion\images\yface.gif" />
+    <Content Include="utf8-net\dialogs\gmap\gmap.html" />
+    <Content Include="utf8-net\dialogs\help\help.css" />
+    <Content Include="utf8-net\dialogs\help\help.html" />
+    <Content Include="utf8-net\dialogs\help\help.js" />
+    <Content Include="utf8-net\dialogs\image\image.css" />
+    <Content Include="utf8-net\dialogs\image\image.html" />
+    <Content Include="utf8-net\dialogs\image\image.js" />
+    <Content Include="utf8-net\dialogs\image\images\alignicon.jpg" />
+    <Content Include="utf8-net\dialogs\image\images\bg.png" />
+    <Content Include="utf8-net\dialogs\image\images\icons.gif" />
+    <Content Include="utf8-net\dialogs\image\images\icons.png" />
+    <Content Include="utf8-net\dialogs\image\images\image.png" />
+    <Content Include="utf8-net\dialogs\image\images\progress.png" />
+    <Content Include="utf8-net\dialogs\image\images\success.gif" />
+    <Content Include="utf8-net\dialogs\image\images\success.png" />
+    <Content Include="utf8-net\dialogs\insertframe\insertframe.html" />
+    <Content Include="utf8-net\dialogs\internal.js" />
+    <Content Include="utf8-net\dialogs\link\link.html" />
+    <Content Include="utf8-net\dialogs\map\map.html" />
+    <Content Include="utf8-net\dialogs\map\show.html" />
+    <Content Include="utf8-net\dialogs\music\music.css" />
+    <Content Include="utf8-net\dialogs\music\music.html" />
+    <Content Include="utf8-net\dialogs\music\music.js" />
+    <Content Include="utf8-net\dialogs\preview\preview.html" />
+    <Content Include="utf8-net\dialogs\scrawl\images\addimg.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\brush.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\delimg.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\delimgH.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\empty.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\emptyH.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\eraser.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\redo.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\redoH.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\scale.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\scaleH.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\size.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\undo.png" />
+    <Content Include="utf8-net\dialogs\scrawl\images\undoH.png" />
+    <Content Include="utf8-net\dialogs\scrawl\scrawl.css" />
+    <Content Include="utf8-net\dialogs\scrawl\scrawl.html" />
+    <Content Include="utf8-net\dialogs\scrawl\scrawl.js" />
+    <Content Include="utf8-net\dialogs\searchreplace\searchreplace.html" />
+    <Content Include="utf8-net\dialogs\searchreplace\searchreplace.js" />
+    <Content Include="utf8-net\dialogs\snapscreen\snapscreen.html" />
+    <Content Include="utf8-net\dialogs\spechars\spechars.html" />
+    <Content Include="utf8-net\dialogs\spechars\spechars.js" />
+    <Content Include="utf8-net\dialogs\table\dragicon.png" />
+    <Content Include="utf8-net\dialogs\table\edittable.css" />
+    <Content Include="utf8-net\dialogs\table\edittable.html" />
+    <Content Include="utf8-net\dialogs\table\edittable.js" />
+    <Content Include="utf8-net\dialogs\table\edittd.html" />
+    <Content Include="utf8-net\dialogs\table\edittip.html" />
+    <Content Include="utf8-net\dialogs\template\config.js" />
+    <Content Include="utf8-net\dialogs\template\images\bg.gif" />
+    <Content Include="utf8-net\dialogs\template\images\pre0.png" />
+    <Content Include="utf8-net\dialogs\template\images\pre1.png" />
+    <Content Include="utf8-net\dialogs\template\images\pre2.png" />
+    <Content Include="utf8-net\dialogs\template\images\pre3.png" />
+    <Content Include="utf8-net\dialogs\template\images\pre4.png" />
+    <Content Include="utf8-net\dialogs\template\template.css" />
+    <Content Include="utf8-net\dialogs\template\template.html" />
+    <Content Include="utf8-net\dialogs\template\template.js" />
+    <Content Include="utf8-net\dialogs\video\images\bg.png" />
+    <Content Include="utf8-net\dialogs\video\images\center_focus.jpg" />
+    <Content Include="utf8-net\dialogs\video\images\file-icons.gif" />
+    <Content Include="utf8-net\dialogs\video\images\file-icons.png" />
+    <Content Include="utf8-net\dialogs\video\images\icons.gif" />
+    <Content Include="utf8-net\dialogs\video\images\icons.png" />
+    <Content Include="utf8-net\dialogs\video\images\image.png" />
+    <Content Include="utf8-net\dialogs\video\images\left_focus.jpg" />
+    <Content Include="utf8-net\dialogs\video\images\none_focus.jpg" />
+    <Content Include="utf8-net\dialogs\video\images\progress.png" />
+    <Content Include="utf8-net\dialogs\video\images\right_focus.jpg" />
+    <Content Include="utf8-net\dialogs\video\images\success.gif" />
+    <Content Include="utf8-net\dialogs\video\images\success.png" />
+    <Content Include="utf8-net\dialogs\video\video.css" />
+    <Content Include="utf8-net\dialogs\video\video.html" />
+    <Content Include="utf8-net\dialogs\video\video.js" />
+    <Content Include="utf8-net\dialogs\webapp\webapp.html" />
+    <Content Include="utf8-net\dialogs\wordimage\fClipboard_ueditor.swf" />
+    <Content Include="utf8-net\dialogs\wordimage\imageUploader.swf" />
+    <Content Include="utf8-net\dialogs\wordimage\tangram.js" />
+    <Content Include="utf8-net\dialogs\wordimage\wordimage.html" />
+    <Content Include="utf8-net\dialogs\wordimage\wordimage.js" />
+    <Content Include="utf8-net\index.html" />
+    <Content Include="utf8-net\lang\en\en.js" />
+    <Content Include="utf8-net\lang\en\images\addimage.png" />
+    <Content Include="utf8-net\lang\en\images\alldeletebtnhoverskin.png" />
+    <Content Include="utf8-net\lang\en\images\alldeletebtnupskin.png" />
+    <Content Include="utf8-net\lang\en\images\background.png" />
+    <Content Include="utf8-net\lang\en\images\button.png" />
+    <Content Include="utf8-net\lang\en\images\copy.png" />
+    <Content Include="utf8-net\lang\en\images\deletedisable.png" />
+    <Content Include="utf8-net\lang\en\images\deleteenable.png" />
+    <Content Include="utf8-net\lang\en\images\listbackground.png" />
+    <Content Include="utf8-net\lang\en\images\localimage.png" />
+    <Content Include="utf8-net\lang\en\images\music.png" />
+    <Content Include="utf8-net\lang\en\images\rotateleftdisable.png" />
+    <Content Include="utf8-net\lang\en\images\rotateleftenable.png" />
+    <Content Include="utf8-net\lang\en\images\rotaterightdisable.png" />
+    <Content Include="utf8-net\lang\en\images\rotaterightenable.png" />
+    <Content Include="utf8-net\lang\en\images\upload.png" />
+    <Content Include="utf8-net\lang\zh-cn\images\copy.png" />
+    <Content Include="utf8-net\lang\zh-cn\images\localimage.png" />
+    <Content Include="utf8-net\lang\zh-cn\images\music.png" />
+    <Content Include="utf8-net\lang\zh-cn\images\upload.png" />
+    <Content Include="utf8-net\lang\zh-cn\zh-cn.js" />
+    <Content Include="utf8-net\net\Bin\Newtonsoft.Json.dll" />
+    <Content Include="utf8-net\net\Bin\Newtonsoft.Json.pdb" />
+    <Content Include="utf8-net\net\Bin\Newtonsoft.Json.xml" />
+    <Content Include="utf8-net\net\net.sln" />
+    <Content Include="utf8-net\themes\default\css\ueditor.css" />
+    <Content Include="utf8-net\themes\default\css\ueditor.min.css" />
+    <Content Include="utf8-net\themes\default\dialogbase.css" />
+    <Content Include="utf8-net\themes\default\images\anchor.gif" />
+    <Content Include="utf8-net\themes\default\images\arrow.png" />
+    <Content Include="utf8-net\themes\default\images\arrow_down.png" />
+    <Content Include="utf8-net\themes\default\images\arrow_up.png" />
+    <Content Include="utf8-net\themes\default\images\button-bg.gif" />
+    <Content Include="utf8-net\themes\default\images\cancelbutton.gif" />
+    <Content Include="utf8-net\themes\default\images\charts.png" />
+    <Content Include="utf8-net\themes\default\images\cursor_h.gif" />
+    <Content Include="utf8-net\themes\default\images\cursor_h.png" />
+    <Content Include="utf8-net\themes\default\images\cursor_v.gif" />
+    <Content Include="utf8-net\themes\default\images\cursor_v.png" />
+    <Content Include="utf8-net\themes\default\images\dialog-title-bg.png" />
+    <Content Include="utf8-net\themes\default\images\filescan.png" />
+    <Content Include="utf8-net\themes\default\images\highlighted.gif" />
+    <Content Include="utf8-net\themes\default\images\icons-all.gif" />
+    <Content Include="utf8-net\themes\default\images\icons.gif" />
+    <Content Include="utf8-net\themes\default\images\icons.png" />
+    <Content Include="utf8-net\themes\default\images\loaderror.png" />
+    <Content Include="utf8-net\themes\default\images\loading.gif" />
+    <Content Include="utf8-net\themes\default\images\lock.gif" />
+    <Content Include="utf8-net\themes\default\images\neweditor-tab-bg.png" />
+    <Content Include="utf8-net\themes\default\images\pagebreak.gif" />
+    <Content Include="utf8-net\themes\default\images\scale.png" />
+    <Content Include="utf8-net\themes\default\images\sortable.png" />
+    <Content Include="utf8-net\themes\default\images\spacer.gif" />
+    <Content Include="utf8-net\themes\default\images\sparator_v.png" />
+    <Content Include="utf8-net\themes\default\images\table-cell-align.png" />
+    <Content Include="utf8-net\themes\default\images\tangram-colorpicker.png" />
+    <Content Include="utf8-net\themes\default\images\toolbar_bg.png" />
+    <Content Include="utf8-net\themes\default\images\unhighlighted.gif" />
+    <Content Include="utf8-net\themes\default\images\upload.png" />
+    <Content Include="utf8-net\themes\default\images\videologo.gif" />
+    <Content Include="utf8-net\themes\default\images\word.gif" />
+    <Content Include="utf8-net\themes\default\images\wordpaste.png" />
+    <Content Include="utf8-net\themes\iframe.css" />
+    <Content Include="utf8-net\third-party\codemirror\codemirror.css" />
+    <Content Include="utf8-net\third-party\codemirror\codemirror.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\mootools-adapter.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\mootools-adapter.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\prototype-adapter.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\prototype-adapter.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\standalone-framework.js" />
+    <Content Include="utf8-net\third-party\highcharts\adapters\standalone-framework.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\highcharts-more.js" />
+    <Content Include="utf8-net\third-party\highcharts\highcharts-more.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\highcharts.js" />
+    <Content Include="utf8-net\third-party\highcharts\highcharts.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\annotations.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\annotations.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\canvas-tools.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\canvas-tools.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\data.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\data.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\drilldown.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\drilldown.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\exporting.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\exporting.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\funnel.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\funnel.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\heatmap.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\heatmap.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\map.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\map.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\no-data-to-display.js" />
+    <Content Include="utf8-net\third-party\highcharts\modules\no-data-to-display.src.js" />
+    <Content Include="utf8-net\third-party\highcharts\themes\dark-blue.js" />
+    <Content Include="utf8-net\third-party\highcharts\themes\dark-green.js" />
+    <Content Include="utf8-net\third-party\highcharts\themes\gray.js" />
+    <Content Include="utf8-net\third-party\highcharts\themes\grid.js" />
+    <Content Include="utf8-net\third-party\highcharts\themes\skies.js" />
+    <Content Include="utf8-net\third-party\jquery-1.10.2.js" />
+    <Content Include="utf8-net\third-party\jquery-1.10.2.min.js" />
+    <Content Include="utf8-net\third-party\snapscreen\UEditorSnapscreen.exe" />
+    <Content Include="utf8-net\third-party\SyntaxHighlighter\shCore.js" />
+    <Content Include="utf8-net\third-party\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="utf8-net\third-party\video-js\video-js.css" />
+    <Content Include="utf8-net\third-party\video-js\video-js.min.css" />
+    <Content Include="utf8-net\third-party\video-js\video-js.swf" />
+    <Content Include="utf8-net\third-party\video-js\video.dev.js" />
+    <Content Include="utf8-net\third-party\video-js\video.js" />
+    <Content Include="utf8-net\third-party\webuploader\Uploader.swf" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.css" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.custom.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.custom.min.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.flashonly.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.flashonly.min.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.html5only.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.html5only.min.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.min.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.withoutimage.js" />
+    <Content Include="utf8-net\third-party\webuploader\webuploader.withoutimage.min.js" />
+    <Content Include="utf8-net\third-party\zeroclipboard\ZeroClipboard.js" />
+    <Content Include="utf8-net\third-party\zeroclipboard\ZeroClipboard.min.js" />
+    <Content Include="utf8-net\third-party\zeroclipboard\ZeroClipboard.swf" />
+    <Content Include="utf8-net\ueditor.all.js" />
+    <Content Include="utf8-net\ueditor.all.min.js" />
+    <Content Include="utf8-net\ueditor.config.js" />
+    <Content Include="utf8-net\ueditor.parse.js" />
+    <Content Include="utf8-net\ueditor.parse.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExcelHelper1.cs" />
+    <Compile Include="GetPic.aspx.cs">
+      <DependentUpon>GetPic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetPic.aspx.designer.cs">
+      <DependentUpon>GetPic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\BasicInfoManage.aspx.cs">
+      <DependentUpon>BasicInfoManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\BasicInfoManage.aspx.designer.cs">
+      <DependentUpon>BasicInfoManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\BasicInfoManage_Add.aspx.cs">
+      <DependentUpon>BasicInfoManage_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\BasicInfoManage_Add.aspx.designer.cs">
+      <DependentUpon>BasicInfoManage_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb.aspx.cs">
+      <DependentUpon>CheckAffairList_cztb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_cztb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb_jtcy_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_cztb_jtcy_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb_jtcy_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_cztb_jtcy_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb_look.aspx.cs">
+      <DependentUpon>CheckAffairList_cztb_look.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_cztb_look.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_cztb_look.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzjlgz.aspx.cs">
+      <DependentUpon>CheckAffairList_tzjlgz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzjlgz.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzjlgz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzjlgz_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_tzjlgz_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzjlgz_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzjlgz_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_tzqy_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzqy_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_jcjl_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_tzqy_jcjl_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_jcjl_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzqy_jcjl_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_wtxt_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_tzqy_wtxt_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy_wtxt_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzqy_wtxt_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk.aspx.cs">
+      <DependentUpon>CheckAffairList_zdtsqk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zdtsqk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Check.aspx.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_Check.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_Check.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_Check.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_jtcy_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_jtcy_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_jtcy_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_jtcy_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_xxjl_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_xxjl_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zdtsqk_xxjl_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zdtsqk_xxjl_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy.aspx.cs">
+      <DependentUpon>CheckAffairList_tzqy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_tzqy.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_tzqy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz.aspx.cs">
+      <DependentUpon>CheckAffairList_zxgz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zxgz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_zxgz_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zxgz_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz_jlqk_Add.aspx.cs">
+      <DependentUpon>CheckAffairList_zxgz_jlqk_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CheckAffairList_zxgz_jlqk_Add.aspx.designer.cs">
+      <DependentUpon>CheckAffairList_zxgz_jlqk_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\LogManage.aspx.cs">
+      <DependentUpon>LogManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\LogManage.aspx.designer.cs">
+      <DependentUpon>LogManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeContent.aspx.cs">
+      <DependentUpon>NoticeContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeContent.aspx.designer.cs">
+      <DependentUpon>NoticeContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage.aspx.cs">
+      <DependentUpon>NoticeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage.aspx.designer.cs">
+      <DependentUpon>NoticeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage_Add.aspx.cs">
+      <DependentUpon>NoticeManage_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage_Add.aspx.designer.cs">
+      <DependentUpon>NoticeManage_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage_Update.aspx.cs">
+      <DependentUpon>NoticeManage_Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\NoticeManage_Update.aspx.designer.cs">
+      <DependentUpon>NoticeManage_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\OutputEnvelope.aspx.cs">
+      <DependentUpon>OutputEnvelope.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\OutputEnvelope.aspx.designer.cs">
+      <DependentUpon>OutputEnvelope.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CollegeManage.aspx.cs">
+      <DependentUpon>CollegeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CollegeManage.aspx.designer.cs">
+      <DependentUpon>CollegeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CollegeManage_Add.aspx.cs">
+      <DependentUpon>CollegeManage_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\CollegeManage_Add.aspx.designer.cs">
+      <DependentUpon>CollegeManage_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail.aspx.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail.aspx.designer.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail_NewEmail.aspx.cs">
+      <DependentUpon>SendEmail_NewEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail_NewEmail.aspx.designer.cs">
+      <DependentUpon>SendEmail_NewEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail_SelectPerson.aspx.cs">
+      <DependentUpon>SendEmail_SelectPerson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendEmail_SelectPerson.aspx.designer.cs">
+      <DependentUpon>SendEmail_SelectPerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage.aspx.cs">
+      <DependentUpon>SendMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage.aspx.designer.cs">
+      <DependentUpon>SendMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage_NewMessage.aspx.cs">
+      <DependentUpon>SendMessage_NewMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage_NewMessage.aspx.designer.cs">
+      <DependentUpon>SendMessage_NewMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage_SelectPerson.aspx.cs">
+      <DependentUpon>SendMessage_SelectPerson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SendMessage_SelectPerson.aspx.designer.cs">
+      <DependentUpon>SendMessage_SelectPerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SentEmailContent.aspx.cs">
+      <DependentUpon>SentEmailContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SentEmailContent.aspx.designer.cs">
+      <DependentUpon>SentEmailContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SentMessageContent.aspx.cs">
+      <DependentUpon>SentMessageContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\SentMessageContent.aspx.designer.cs">
+      <DependentUpon>SentMessageContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_age.aspx.cs">
+      <DependentUpon>Statistic_cztb_age.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_age.aspx.designer.cs">
+      <DependentUpon>Statistic_cztb_age.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_lhmd.aspx.cs">
+      <DependentUpon>Statistic_cztb_lhmd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_lhmd.aspx.designer.cs">
+      <DependentUpon>Statistic_cztb_lhmd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_sex.aspx.cs">
+      <DependentUpon>Statistic_cztb_sex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_cztb_sex.aspx.designer.cs">
+      <DependentUpon>Statistic_cztb_sex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zhts_school.aspx.cs">
+      <DependentUpon>Statistic_zhts_school.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zhts_school.aspx.designer.cs">
+      <DependentUpon>Statistic_zhts_school.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zhts_sex.aspx.cs">
+      <DependentUpon>Statistic_zhts_sex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zhts_sex.aspx.designer.cs">
+      <DependentUpon>Statistic_zhts_sex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zxgz_age.aspx.cs">
+      <DependentUpon>Statistic_zxgz_age.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zxgz_age.aspx.designer.cs">
+      <DependentUpon>Statistic_zxgz_age.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zxgz_sex.aspx.cs">
+      <DependentUpon>Statistic_zxgz_sex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\Statistic_zxgz_sex.aspx.designer.cs">
+      <DependentUpon>Statistic_zxgz_sex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\UpdatePassword.aspx.cs">
+      <DependentUpon>UpdatePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\UpdatePassword.aspx.designer.cs">
+      <DependentUpon>UpdatePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\VipMemberManage.aspx.cs">
+      <DependentUpon>VipMemberManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\VipMemberManage.aspx.designer.cs">
+      <DependentUpon>VipMemberManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\VipMemberManage_Add.aspx.cs">
+      <DependentUpon>VipMemberManage_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HKHJXT\Administrator\VipMemberManage_Add.aspx.designer.cs">
+      <DependentUpon>VipMemberManage_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="js\UploadHandler.ashx.cs">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="js\UploadHandler_summary.ashx.cs">
+      <DependentUpon>UploadHandler_summary.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.Master.cs">
+      <DependentUpon>LogIn.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.Master.designer.cs">
+      <DependentUpon>LogIn.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LogInPage.aspx.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInPage.aspx.designer.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInNoticeContent.aspx.cs">
+      <DependentUpon>LogInNoticeContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInNoticeContent.aspx.designer.cs">
+      <DependentUpon>LogInNoticeContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResetPwd.aspx.cs">
+      <DependentUpon>ResetPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPwd.aspx.designer.cs">
+      <DependentUpon>ResetPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference3\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="umeditor1_2_2-utf8-net\net\Uploader.cs" />
+    <Compile Include="utf8-net\net\App_Code\Config.cs" />
+    <Compile Include="utf8-net\net\App_Code\ConfigHandler.cs" />
+    <Compile Include="utf8-net\net\App_Code\CrawlerHandler.cs" />
+    <Compile Include="utf8-net\net\App_Code\Handler.cs" />
+    <Compile Include="utf8-net\net\App_Code\ListFileHandler.cs" />
+    <Compile Include="utf8-net\net\App_Code\NotSupportedHandler.cs" />
+    <Compile Include="utf8-net\net\App_Code\PathFormater.cs" />
+    <Compile Include="utf8-net\net\App_Code\UploadHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\dist\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Buttons\Buttons\font\fontawesome-webfont.eot" />
+    <Content Include="Buttons\Buttons\font\fontawesome-webfont.ttf" />
+    <Content Include="Buttons\Buttons\font\fontawesome-webfont.woff" />
+    <Content Include="Buttons\Buttons\font\FontAwesome.otf" />
+    <Content Include="Buttons\__MACOSX\Buttons\._.DS_Store" />
+    <Content Include="Buttons\__MACOSX\Buttons\css\._.DS_Store" />
+    <Content Include="Buttons\__MACOSX\Buttons\js\._.DS_Store" />
+    <Content Include="HKHJXT\Administrator\Admin.Master" />
+    <Content Include="LogIn.Master" />
+    <Content Include="js\uploadify\check-exists.php" />
+    <Content Include="js\uploadify\index.php" />
+    <Content Include="js\uploadify\uploadify.php" />
+    <Content Include="js\UploadHandler.ashx" />
+    <Content Include="js\uploadify\jquery.uploadify.min.js.map">
+      <DependentUpon>jquery.uploadify.js</DependentUpon>
+    </Content>
+    <Content Include="js\UploadHandler_summary.ashx" />
+    <Content Include="File\上海市虹口区科协会员会籍动态管理系统后台操作文档.doc" />
+    <Content Include="HKHJXT\Envelope1.xls" />
+    <None Include="Properties\PublishProfiles\配置文件1.pubxml" />
+    <Content Include="Service References\ServiceReference1\SendMsg.wsdl" />
+    <Content Include="Service References\ServiceReference2\MessageSend.wsdl" />
+    <Content Include="Service References\ServiceReference3\MsgModemWebServer.wsdl" />
+    <Content Include="umeditor1_2_2-utf8-net\net\getContent.ashx" />
+    <Content Include="umeditor1_2_2-utf8-net\net\imageUp.ashx" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneral-webfont.eot" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneral-webfont.svg" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneral-webfont.ttf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneral-webfont.woff" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbol-webfont.eot" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbol-webfont.svg" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbol-webfont.ttf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbol-webfont.woff" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbolita-webfont.eot" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbolita-webfont.svg" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbolita-webfont.ttf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralbolita-webfont.woff" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralitalic-webfont.eot" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralitalic-webfont.svg" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralitalic-webfont.ttf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\stixgeneral-bundle\stixgeneralitalic-webfont.woff" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\Symbola.eot" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\Symbola.otf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\Symbola.svg" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\Symbola.ttf" />
+    <Content Include="umeditor1_2_2-utf8-net\third-party\mathquill\font\Symbola.woff" />
+    <Content Include="utf8-net\net\config.json" />
+    <Content Include="utf8-net\net\controller.ashx" />
+    <Content Include="utf8-net\net\README.md" />
+    <Content Include="utf8-net\net\Web.config" />
+    <Content Include="utf8-net\third-party\jquery-1.10.2.min.map" />
+    <Content Include="utf8-net\third-party\video-js\font\vjs.eot" />
+    <Content Include="utf8-net\third-party\video-js\font\vjs.svg" />
+    <Content Include="utf8-net\third-party\video-js\font\vjs.ttf" />
+    <Content Include="utf8-net\third-party\video-js\font\vjs.woff" />
+    <Content Include="Template\在读台生情况信息表.doc" />
+    <Content Include="Template\专项工作情况表.doc" />
+    <Content Include="Template\两岸婚姻信息表.doc" />
+    <Content Include="Template\台资企业情况表.doc" />
+    <Content Include="Template\对口地区里长交流工作信息.doc" />
+    <Content Include="Template\常住台胞信息表.doc" />
+    <Content Include="Template\导入模板（两岸婚姻信息）.xls" />
+    <Content Include="Template\导入模板（在沪台生信息）.xls" />
+    <Content Include="Template\导入模板（常驻台胞信息）.xls" />
+    <Content Include="Template\团组交流工作情况表.doc" />
+    <Content Include="Template\上海市杨浦区台湾事务办公室综合信息管理系统数据导入说明文档.doc" />
+    <Content Include="Template\导出模板（两岸婚姻信息）.xls" />
+    <Content Include="Template\导出模板（在沪台生信息）.xls" />
+    <Content Include="Template\导出模板（常驻台胞信息）.xls" />
+    <Content Include="Template\导出Excel%28空%29.xls" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\My97DatePicker\lang\" />
+    <Folder Include="images\My97DatePicker\skin\default\" />
+    <Folder Include="images\My97DatePicker\skin\whyGreen\" />
+    <Folder Include="images\My97DatePicker\开发包\lang\" />
+    <Folder Include="images\My97DatePicker\开发包\skin\default\" />
+    <Folder Include="images\My97DatePicker\开发包\skin\whyGreen\" />
+    <Folder Include="obj\" />
+    <Folder Include="umeditor1_2_2-utf8-net\net\upload\" />
+    <Folder Include="upload\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessSupply\BusinessSupply.csproj">
+      <Project>{201a37c5-0145-4a02-87c6-b02a7dcd4b83}</Project>
+      <Name>BusinessSupply</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{8ba239b2-66a5-4d12-a119-34e3a1b8c189}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13371</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13234/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
